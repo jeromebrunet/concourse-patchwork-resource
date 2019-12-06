@@ -1,0 +1,9 @@
+{
+    "source": {
+	"uri": "https://patchwork.kernel.org",
+	"project": "linux-amlogic"
+    },
+    "version": {
+	"ref": "210205"
+    }
+}

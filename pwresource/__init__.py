@@ -85,7 +85,7 @@ class PWResource:
         # Copy some data over
         metadata = list()
         for k in PWResource.in_metadata_keys:
-            metadata.append({k : series[k]})
+            metadata.append({"name": k, "value" : series[k]})
 
         result = dict()
         result["version"] = version
